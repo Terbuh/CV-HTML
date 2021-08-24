@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+
+.container {
+    display: block;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: unset;
+}
+
+.parent-side {
+    width: 100%;
+}
+
+.left-side {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    font-family: 'STIX Two Text', serif;
+    background-image: linear-gradient(to right, #ccd9ff 30% , rgb(255, 255, 255));
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.code-icon {
+    width: 50px;
+}
+
+.about-me {
+    margin-top: 30px;
+}
+
+.about-me-title {
+    color: 	 #000000;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.h3-wrapper {
+    display: flex; 
+    background-color: #80aaff;
+    border-radius: 70px;
+    justify-content: center;
+}
+
+.about-me-text {
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* .education {
+    margin-top: 20px;
+} */
+
+.education-title {
+    color: 	 #000000;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.education-text-title {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.education-text {
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* .hobby {
+    margin-top: 20px;
+} */
+
+.hobby-title {
+    color: 	 #000000;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.hobby-list {
+    list-style-image: url(./folder.svg);
+    margin-top: 1rem;
+}
+
+.right-side {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    font-family: 'STIX Two Text', serif;
+    background-image: linear-gradient(to left, #ccd9ff 30% , rgb(255, 255, 255));
+}
+
+.cv-image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.cv-image {
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.jpg-wrapper {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-level-title {
+    background-image: linear-gradient(to left, rgb(172, 169, 169) 30% , rgb(73, 73, 73));
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.skill-title {
+    color: #000000;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.skill-wrapper {
+    width: 50%;
+    background-color: rgb(73, 73, 73);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.skill-level-html {
+    background-color: rgb(172, 169, 169);
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.skill-level-css {
+    background-color: rgb(172, 169, 169);
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.skill-level-js {
+    background-color: rgb(172, 169, 169);
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.skill-level-js:hover, .skill-level-css:hover, .skill-level-html:hover {
+    background-color: #80aaff;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    transition-duration: 2s;
+}
+.skill-per {
+    margin-top: 1rem;
+}
+
+.footer {
+    width: 1140px;
+    margin-left: -30px;
+    background: linear-gradient(180deg, rgba(73,73,73,1) 0%, rgba(255,255,255,1) 0%,
+     rgba(235,240,255,1) 28%, rgba(235,240,255,1) 34%, rgba(204,217,255,1) 100%, rgba(204,217,255,1) 100%, rgba(255,255,255,1) 100%);
+}
+
+.footer-text {
+    width: 1140px;
+}
